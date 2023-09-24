@@ -32,7 +32,7 @@ def login_page(request):
 @login_required(login_url="")
 def lgout(request):
     logout(request)
-    return redirect('')
+    return redirect("/")
 
 
 def sign_up_page(request):
